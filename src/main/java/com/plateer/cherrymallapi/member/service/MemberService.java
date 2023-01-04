@@ -1,6 +1,9 @@
 package com.plateer.cherrymallapi.member.service;
 
-public interface MemberService {
+import com.plateer.cherrymallapi.member.vo.MemberVo;
 
-    public void getMemberList();
+import java.util.List;
+
+public interface MemberService {
+    List<MemberVo> getMemberList();
 }

@@ -7,6 +7,6 @@
     <select id="getMemberList" resultType="com.plateer.cherrymallapi.member.vo.MemberVo">
         SELECT *
         FROM member_base
-        ORDER BY member_id DESC;
+        ORDER BY member_id DESC
     </select>
 </mapper>
